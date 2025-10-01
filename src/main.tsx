@@ -1,8 +1,5 @@
 import { createRoot } from "react-dom/client";
 import React from "react";
-
-export function Application() {
-  return <h1>Task </h1>;
-}
+import { Application } from "./application.js";
 
 createRoot(document.getElementById("app")!).render(<Application />);
