@@ -1,0 +1,28 @@
+{
+  "name": "pg6301-07",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc --noEmit && prettier --check .",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlviraHaque/pg6301-07.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlviraHaque/pg6301-07/issues"
+  },
+  "homepage": "https://github.com/AlviraHaque/pg6301-07#readme",
+  "type": "module",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.7"
+  }
+}
